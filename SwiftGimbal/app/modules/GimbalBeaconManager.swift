@@ -74,7 +74,7 @@ class GimbalBeaconManager: NSObject, FYXVisitDelegate, FYXSessionDelegate, FYXBl
     }
     
     func didDepart(visit: FYXVisit!) {
-        sightedBeacons = removeBeacon(beaconCollection: sightedBeacons, identifier: visit.transmitter.identifier)
+//        sightedBeacons = removeBeacon(beaconCollection: sightedBeacons, identifier: visit.transmitter.identifier)
         delegate?.didDepartFrom(visit.transmitter)
     }
     

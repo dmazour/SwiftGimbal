@@ -43,7 +43,7 @@ class InitialViewModel: NSObject {
     
     func configureCell(tableView: UITableView, indexPath: NSIndexPath, beacon: CHABeacon) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier("beaconCell", forIndexPath: indexPath) as UITableViewCell
-        cell.textLabel.text = beacon.identifier
+        cell.textLabel!.text = beacon.identifier
         return cell
     }
     
@@ -53,9 +53,9 @@ class InitialViewModel: NSObject {
     }
     
     func departed(beacon: FYXTransmitter?) {
-        itemStrengthLabel?.text = "0"
-        transmitterLabel?.text = ""
-        pulseView?.departed()
+//        itemStrengthLabel?.text = "0"
+//        transmitterLabel?.text = ""
+//        pulseView?.departed()
     }
     
     func updateLabels(rssiStrength strength: NSNumber, beacon: FYXTransmitter) {

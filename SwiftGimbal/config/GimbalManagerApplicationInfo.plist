@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>GimbalApplicationID</key>
-	<string>put your application id here</string>
+	<string>96dc703df534d113c13d9b29da167c1abc6291a9a12a10d2025f2d54f6dfa953</string>
 	<key>GimbalSecret</key>
-	<string>put your secret here</string>
+	<string>70dbb27160ebab020be410a100f78d2c804b31609c51db58ae07cad053f49cd9</string>
 	<key>CallbackURL</key>
-	<string>put your callback url here</string>
+	<string>comgimbalmazour1://authcode</string>
 </dict>
 </plist>
